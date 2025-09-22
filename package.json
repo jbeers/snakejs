@@ -1,0 +1,19 @@
+{
+  "name": "snakejs",
+  "version": "1.0.0",
+  "description": "This is a nodejs version of snake",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["snake", "game", "cli", "terminal"],
+  "bin": {
+    "snake": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "keypress": "^0.2.1"
+  }
+}
